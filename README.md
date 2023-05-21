@@ -1,4 +1,4 @@
-<h1> <img src = "https://cdn-icons-png.flaticon.com/128/10832/10832939.png" width = "30" height = "30" > 2023 ALONE JAVA STUDY <img src = "https://cdn-icons-png.flaticon.com/128/10832/10832939.png" width = "30" height = "30" > </h1>
+<h1> <img src = "https://cdn-icons-png.flaticon.com/128/10832/10832939.png" width = "35" height = "35" > 2023 ALONE JAVA STUDY <img src = "https://cdn-icons-png.flaticon.com/128/10832/10832939.png" width = "35" height = "35" > </h1>
 
 <h3> <img src = "https://cdn-icons-png.flaticon.com/512/6597/6597133.png" width = "25" height = "25" > PERIOD </h3>
 <p> <img src = "https://cdn-icons-png.flaticon.com/512/520/520459.png" width = "10" height = "10"> 23.5.12 ~ </p>
