@@ -1,5 +1,7 @@
 package chap_01;
 
+// 변수 (float, long)
+
 public class _03_Variables {
     public static void main(String[] args) {
         String name = "김정민"; // 문자형변수
