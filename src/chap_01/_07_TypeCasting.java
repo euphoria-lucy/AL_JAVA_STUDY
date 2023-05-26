@@ -1,5 +1,7 @@
 package chap_01;
 
+// 형변환
+
 public class _07_TypeCasting {
     public static void main(String[] args) {
         // 형변환 TypeCasting
