@@ -1,7 +1,5 @@
 package chap_01;
 
-// 자료형
-
 public class _02_DataType {
     public static void main(String[] args) {
         System.out.println("JAVA"); // 문자열
