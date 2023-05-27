@@ -1,7 +1,5 @@
 package chap_01;
 
-// 변수
-
 public class _05_VariableNaming {
     public static void main(String[] args) {
         /* 변수 이름 짓는 법
