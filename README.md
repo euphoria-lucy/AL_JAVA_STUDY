@@ -8,3 +8,7 @@
 - DEVELOP LANGUAGE :  ` JAVA `
 - DEVELOP TOOL : ` INTELLIJ IDE ` 
 - DEVELOP JDK : ` 17 `
+
+### <img src = "https://cdn-icons-png.flaticon.com/128/4341/4341053.png" width = "30" heigth = "30"> LECTURE
+- TITLE : ` 나도코딩의 자바 기본편 - 풀코스 (20시간) `
+- LINK : [INFLEARN_JAVA](https://bit.ly/INFLEARN_JAVA_LECTURE)
