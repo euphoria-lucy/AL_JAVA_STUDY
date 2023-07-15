@@ -1,4 +1,4 @@
-# <img src = "https://cdn-icons-png.flaticon.com/128/4869/4869749.png" width = "37" height = "37"> 2023 JAVA CLASS <img src = "https://cdn-icons-png.flaticon.com/128/4869/4869749.png" width = "37" height = "37" >
+# <img src = "https://cdn-icons-png.flaticon.com/128/4869/4869749.png" width = "37" height = "37"> ALONE JAVA STUDY <img src = "https://cdn-icons-png.flaticon.com/128/4869/4869749.png" width = "37" height = "37" >
 
 ### <img src = "https://cdn-icons-png.flaticon.com/128/4341/4341050.png" width = "30" height = "30" > PERIOD 
 - 23.05.12 ~  
