@@ -54,4 +54,8 @@ public class BlackBox {
         record(true, true, 5);
     }
 
+    static void callServiceCenter() {
+        System.out.println("서비스 센터 (2004-0307) 로 연결합니다.");
+    }
+
 }
