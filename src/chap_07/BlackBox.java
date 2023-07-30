@@ -58,4 +58,7 @@ public class BlackBox {
         System.out.println("서비스 센터 (2004-0307) 로 연결합니다.");
     }
 
+    void appendModelName(String modelName) {
+        this.modelName += modelName;
+    }
 }
