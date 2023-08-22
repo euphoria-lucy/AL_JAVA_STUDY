@@ -2,6 +2,8 @@ package chap_07;
 
 public class _10_AccessModifier {
     public static void main(String[] args) {
+        // 캡슐화 (Encapsulation) : 서로 관련이 있는 데이터만 하나의 클래스로 정의
+        // 정보은닉 (Infromation hiding) : 정보숨김
 
         // 접근 제어자 : 접근을 제어하는 것
         // private : 해당 클래스 내에서만 접근 가능
