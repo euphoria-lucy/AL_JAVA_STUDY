@@ -5,7 +5,11 @@ public class Camera { // 부모 클래스
 
     // 가지고 있는 인스턴스 변수를 외부로부터 전달받아 값을 설정할 수 있는 메소드
     public Camera() {
-        this.name = "카메라";
+        this("카메라");
+    }
+
+    protected Camera(String name) {
+        this.name = name;
     }
 
     public void takePicture() {
