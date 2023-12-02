@@ -19,7 +19,7 @@ public class Camera { // 부모 클래스
 
     public void recordVideo() {
         // 동영상 녹화
-        System.out.println(this.name + " :  동영상을 녹화합니다.");
+        System.out.println(this.name + " : 동영상을 녹화합니다.");
     }
 
     public void showMainFeature() {
