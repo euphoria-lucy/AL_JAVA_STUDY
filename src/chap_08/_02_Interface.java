@@ -1,5 +1,9 @@
 package chap_08;
 
+import chap_08.camera.FactoryCam;
+import chap_08.detector.AdvancedFireDetector;
+import chap_08.detector.Detectable;
+import chap_08.detector.FireDetector;
 import chap_08.reporter.NormalReporter;
 import chap_08.reporter.VideoReporter;
 
@@ -12,5 +16,30 @@ public class _02_Interface {
 
         VideoReporter videoReporter = new VideoReporter();
         videoReporter.report();
+
+        System.out.println("-----------------------------------");
+
+        Detectable fireDetector = new FireDetector();
+        fireDetector.detect();
+
+        Detectable advancedFireDetector = new AdvancedFireDetector();
+        advancedFireDetector.detect();
+
+        System.out.println("-----------------------------------");
+
+        FactoryCam factoryCam = new FactoryCam();
+        factoryCam.setDetectable(fireDetector);
+        factoryCam.setReportable(normalReporter);
+
+        factoryCam.detect();
+        factoryCam.report();
+
+        System.out.println("-----------------------------------");
+
+        factoryCam.setDetectable(advancedFireDetector);
+        factoryCam.setReportable(videoReporter);
+
+        factoryCam.detect();
+        factoryCam.report();
     }
 }
