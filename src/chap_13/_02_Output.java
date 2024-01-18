@@ -25,5 +25,25 @@ public class _02_Output {
         System.out.printf("%-7.2f%n", Math.PI); // 3.14___ (왼쪽 정렬)
         System.out.printf("%07.2f%n", Math.PI); // 0003.14 (빈 공간을 0으로 채우기)
         System.out.printf("%+7.2f%n", Math.PI); // __+3.14 (항상 +- 기호 표시)
+
+        System.out.println("------- 문자열 -------");
+        System.out.printf("%s%n", "DREAM"); // DREAM
+        System.out.printf("%7s%n", "DREAM"); // __DREAM (7자리 공간 확보하고 우측 정렬)
+        System.out.printf("%-7s%n", "DREAM"); // DREAM__ (7자리 공간 확보하고 좌측 정렬)
+        System.out.printf("%7.2s%n", "DREAM"); // _____DR (7자리 공간 확보하고 우측 정렬해서 2글자 출력)
+        System.out.printf("%-7.2s%n", "DREAM"); // DR_____ (7자리 공간 확보하고 좌측 정렬해서 2글자 출력)
+
+        System.out.println("------- 응용 -------");
+        System.out.println("이름 영어 수학 평균");
+        System.out.println("박지성 " + 205 + " " + 825 + " " + 515); // 박지성 205 825 515.0
+        System.out.println("이제노 " + 423 + " " + 825 + " " + 624); // 이제노 423 825 624.0
+        System.out.println("이마크 " + 802 + " " + 825 + " " + 813.2); // 이마크 802 825 813.2
+
+        System.out.println("------- 응용 -------");
+        System.out.println("이름      영어  수학   평균"); // 공백이 각각 6, 3, 3 칸으로 구분
+        System.out.printf("%-6s %4d %4d %6.1f%n", "박지성", 205, 825, 515.0);
+        System.out.printf("%-6s %4d %4d %6.1f%n", "이제노", 423, 825, 624.0);
+        System.out.printf("%-6s %4d %4d %6.1f%n", "이마크", 802, 825, 813.2);
+
     }
 }
